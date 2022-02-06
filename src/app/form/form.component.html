@@ -2,9 +2,9 @@
     <form class="example-form">
         <mat-form-field class="example-full-width" appearance="fill">
             <mat-label>Saying</mat-label>
-            <textarea type="text" class="example-"[(ngModel)]="sayings" matInput placeholder="Ex. It makes me feel..."></textarea>
+            <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
         </mat-form-field>
-        <!-- {{sayings}} -->
+
         <br>
         <br>
         <div class="col">
@@ -30,6 +30,11 @@
                 <mat-label>Quote</mat-label>
                 <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
             </mat-form-field>
+        </div>
+        <div>
+            <button mat-button color="accent">Accent</button>
+            <button mat-button color="accent">Accent</button>
+            <button mat-button color="warn">Warn</button>
         </div>
     </form>
 </div>
