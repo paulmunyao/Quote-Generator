@@ -7,12 +7,12 @@ import {Quote} from '../quote'
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  sayings: String = "";
+  // sayings: String = "";
 
 }
