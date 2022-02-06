@@ -13,6 +13,6 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  sayings: string = " ";
+  sayings: String = "";
 
 }
