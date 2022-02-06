@@ -8,7 +8,7 @@ import { Quote } from './quote';
 })
 export class AppComponent {
   quotes: Quote[] = [
-    new Quote("I am Paul"),
-    new Quote("I")
+    new Quote("I am Paul","Munyao"),
+    
   ];
 }
