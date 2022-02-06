@@ -1,9 +1,9 @@
 export class Quote {
-  private id: number;
   private name: string;
+  private description: string;
 
-  constructor(id: number, name: string) {
-    this.id = id;
+  constructor(name: string,description: string) {
     this.name = name;
+    this.description = description;
   }
 }
