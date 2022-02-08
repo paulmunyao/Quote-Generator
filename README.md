@@ -1,5 +1,5 @@
 # QuoteGenerator
-
+Quote Generator is simply a web application that let's you post an application and other people can view it.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
 ## Development server
