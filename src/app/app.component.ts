@@ -7,8 +7,8 @@ import {Quote } from './quote';
 })
 export class AppComponent {
   quotes: Quote[] = [
-    {quote:'They came an ate our food',author:'Morocco Proverb'},
-    {quote:'A house without books is like a house without windows',author:'Anonymous'},
-    {quote:'Lack is when preparation meets success',author:'Paul'},
+    {quote:'They came an ate our food',author:'~Morocco Proverb~'},
+    {quote:'A house without books is like a house without windows',author:'~Anonymous~'},
+    {quote:'Lack is when preparation meets success',author:'~Paul~'},
   ];
 }
