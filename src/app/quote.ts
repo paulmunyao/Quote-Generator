@@ -1,13 +1,12 @@
 export class Quote {
+  public id:number = 0;
   public name: string;
   public author: string;
-  public upvote: number;
-  public downvote: number;
+  number: number;
 
-  constructor(name: string,author: string,quote:string) {
+  constructor(id:number,name: string,author: string,quote:string) {
+    this.number =0;
     this.name = name;
     this.author = author;
-    this.upvote = 0;
-    this.downvote = 0;
   }
 }
