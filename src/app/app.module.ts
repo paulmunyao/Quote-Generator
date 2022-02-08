@@ -7,12 +7,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from '@angular/material/input';
 import {MatButtonModule} from '@angular/material/button';
 import { DetailsComponent } from './details/details.component';
+import { QuoteComponent } from './quote/quote.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     DetailsComponent,
+    QuoteComponent,
   ],
   imports: [
     BrowserModule,
