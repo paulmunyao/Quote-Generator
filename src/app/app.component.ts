@@ -7,7 +7,7 @@ import {Quote } from './quote';
 })
 export class AppComponent {
   quotes: Quote[] = [
-    {id:1, name:'Watch finding Nemo'},
+    {quote:'Watch finding Nemo,'author:'Paul'},
     {id:2,name:'Buy Cookies'},
     {id:3,name:'Get new Phone Case'},
     {id:4,name:'Get Dog Food'},
