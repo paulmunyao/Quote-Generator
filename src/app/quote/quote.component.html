@@ -1,6 +1,6 @@
 <div *ngFor="let quote of quotes;let i = index;">
     <h1 class="page-header mt-5">Quote Generator</h1>
-    
+
     <br><br>
 
     <ul>
@@ -9,6 +9,9 @@
 
     <button (click)='toggleDetails(1)'>Toggle Details</button>
     <app-details *ngIf='quote.showPublisher' [quote]='quote' (isComplete)='completeGoal($event,1)'></app-details>
+</div>
+<div class="col-md-6">
+    <app-form></app-form>
 </div>
 
 
