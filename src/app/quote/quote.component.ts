@@ -11,7 +11,7 @@ export class QuoteComponent implements OnInit {
     new Quote(
       'A house without books is like a house without windows',
       '~Anonymous~',
-      '~A~',new Date(2022,3,14)
+      '~A~',new Date(2020,3,14)
     ),
     new Quote('Lack is when preparation meets success', '~Paul~', '~L~',new Date(2022,3,14)),
   ];
