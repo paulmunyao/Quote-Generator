@@ -1,17 +1,14 @@
-<div>
+<div *ngFor="let quote of quotes;let i = index;">
     <h1 class="page-header mt-5">Quote Generator</h1>
     <br><br>
-</div>
-<ul>
-    <li *ngFor="let quote of quotes">
-       
-        
-    </li>
-</ul>
-<app-details [quote ] ='quotes'></app-details>
 
+    <ul>
+        <li>{{quote.author}}</li>
+    </ul>
+
+    <button (click)='toggleDetails(1)'>Toggle Details</button>
+    <app-details *ngIf='quote.showPublisher' [quote]='quote' (isComplete)='completeGoal($event,1)'></app-details>
+</div>
 
 
 <p>quote works!</p>
-
-

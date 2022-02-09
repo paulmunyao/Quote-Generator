@@ -11,4 +11,13 @@ export class AppComponent {
    new Quote('A house without books is like a house without windows','~Anonymous~','~A~'),
     new Quote('Lack is when preparation meets success','~Paul~','~L~'),
   ];
+
+    toggleDetails(index: any){
+    this.quotes[index].showPublisher = !this.quotes[index].showPublisher;
+  }
+   completeGoal(isComplete: any, index: any){
+    if (isComplete) {
+      this.quotes.splice(index,1);
+    }
+  }
 }
