@@ -10,11 +10,11 @@
     <button (click)='toggleDetails(1)'>Toggle Details</button>
     <app-details *ngIf='quote.showPublisher' [quote]='quote' (isComplete)='completeGoal($event,1)'></app-details>
 </div>
-<div class="col-md-6">
+<!-- <div class="col-md-6">
     <app-form></app-form>
-</div>
+</div> -->
 <div class="col-md-6">
-    <app-form (addQuote)="new Quote($event)"></app-form>
+    <app-form (addQuote)=" addNewQuote($event)"></app-form>
 </div>
 
 

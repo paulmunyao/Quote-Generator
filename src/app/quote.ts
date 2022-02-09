@@ -1,5 +1,6 @@
 export class Quote {
   showPublisher: boolean;
+  id: number;
   // public quote: string;
   // public author: string;
   // public publisher: string;
