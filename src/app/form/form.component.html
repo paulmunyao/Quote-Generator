@@ -1,48 +1,43 @@
 <div class="row">
-    <form class="#quoteForm" role="form">
+    <form class="#quoteorm" role="form">
         <div class="form-group">
             <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Saying</mat-label>
-                <textarea [(ngModel)]="newQuote.quote" Saying="Quote" #name='ngModel' required matInput
+                <textarea [(ngModel)]="newQuote.quote" Saying="Quote" matInput
                     placeholder="Ex. It makes me feel..."></textarea>
-                <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
-                    <p>Name is required</p>
-                </div>
+            </mat-form-field>
 
-            </mat-form-field>
+            <br>
+            <br>
+            <div class="col">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Author</mat-label>
+                    <input matInput placeholder="Adichie" value="">
+                </mat-form-field>
+            </div>
+            <br>
+            <div class="col">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Publisher</mat-label>
+                    <input matInput placeholder="Paul" value="">
+                </mat-form-field>
+            </div>
+            <br>
+            <div class="col">
+                <button mat-raised-button color="primary">Post Quote</button>
+            </div>
+            <br><br>
+            <div class="col">
+                <mat-form-field class="example-full-width" appearance="fill">
+                    <mat-label>Quote</mat-label>
+                    <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+                </mat-form-field>
+            </div>
+            <div class="btn-group">
+                <button class="tn" mat-raised-button color="accent">Upvote</button>
+                <button class="but" mat-raised-button color="accent">Downvote</button>
+                <button class="button" mat-raised-button color="warn">Delete Quote</button>
+            </div>
         </div>
-
-        <br>
-        <br>
-        <div class="form -group col">
-            <mat-form-field class="example-full-width" appearance="fill">
-                <mat-label>Author</mat-label>
-                <input matInput placeholder="Adichie" value="">
-            </mat-form-field>
-        </div>
-        <br>
-        <div class="col">
-            <mat-form-field class="example-full-width" appearance="fill">
-                <mat-label>Publisher</mat-label>
-                <input matInput placeholder="Paul" value="">
-            </mat-form-field>
-        </div>
-        <br>
-        <div class="col">
-            <button mat-raised-button color="primary">Post Quote</button>
-        </div>
-        <br><br>
-        <div class="col">
-            <mat-form-field class="example-full-width" appearance="fill">
-                <mat-label>Quote</mat-label>
-                <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
-            </mat-form-field>
-        </div>
-        <div class="btn-group">
-            <button class="tn" mat-raised-button color="accent">Upvote</button>
-            <button class="but" mat-raised-button color="accent">Downvote</button>
-            <button class="button" mat-raised-button color="warn">Delete Quote</button>
-        </div>
-
     </form>
 </div>
