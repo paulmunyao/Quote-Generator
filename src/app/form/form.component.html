@@ -1,5 +1,5 @@
 <div class="row">
-    <form class="#quoteorm" role="form">
+    <form (ngSubmit)='submitQuote()' #quoteForm ='ngForm'>
         <div class="form-group">
             <mat-form-field class="example-full-width" appearance="fill">
                 <mat-label>Saying</mat-label>

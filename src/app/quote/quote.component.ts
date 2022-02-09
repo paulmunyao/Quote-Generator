@@ -4,7 +4,7 @@ import { Quote } from '../quote';
   selector: 'app-quote',
   templateUrl: './quote.component.html',
   styleUrls: ['./quote.component.css'],
-})
+})        
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
     new Quote('They came an ate our food', '~Morocco Proverb~', '~P~',new Date(2022,3,14)),
