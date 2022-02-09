@@ -14,7 +14,7 @@ export class FormComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  saying: string="";
+  // quotes: Quote="";
 
   
 }
