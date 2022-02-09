@@ -1,4 +1,5 @@
 export class Quote {
+  showPublisher: boolean;
   public quote: string;
   public author: string;
   public publisher: string;
@@ -6,5 +7,6 @@ export class Quote {
     this.quote = quote;
     this.author = author;
     this.publisher = publisher;
+    this.showPublisher = false; 
   }
 }
