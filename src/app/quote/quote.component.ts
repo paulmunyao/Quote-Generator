@@ -7,7 +7,7 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    { quote: 'They came an ate our food', author: '~Morocco Proverb~' ,publisher:'~P~'},
+    {'They came an ate our food ', '~Morocco Proverb~', '~P~'},
     {
       quote: 'A house without books is like a house without windows',
       author: '~Anonymous~',publisher:'~A~',
