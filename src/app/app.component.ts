@@ -7,9 +7,9 @@ import {Quote } from './quote';
 })
 export class AppComponent {
   quotes: Quote[] = [
-   new Quote('They came an ate our food','~Morocco Proverb~','~P~',new Date(2020,3,14)),
-   new Quote('A house without books is like a house without windows','~Anonymous~','~A~',new Date(2020,3,14)),
-    new Quote('Lack is when preparation meets success','~Paul~','~L~',new Date(2020,3,14)),
+   new Quote('They came an ate our food','~Morocco Proverb~','~P~',new Date(2022,3,14)),
+   new Quote('A house without books is like a house without windows','~Anonymous~','~A~',new Date(2022,3,14)),
+    new Quote('Lack is when preparation meets success','~Paul~','~L~',new Date(2022,3,14)),
   ];
 
     toggleDetails(index: any){
