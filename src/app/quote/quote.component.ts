@@ -7,12 +7,12 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[] = [
-    { quote: 'They came an ate our food', author: '~Morocco Proverb~' ,publisher:'P'},
+    { quote: 'They came an ate our food', author: '~Morocco Proverb~' ,publisher:'~P~'},
     {
       quote: 'A house without books is like a house without windows',
-      author: '~Anonymous~',publisher:'A',
+      author: '~Anonymous~',publisher:'~A~',
     },
-    { quote: 'Lack is when preparation meets success', author: '~Paul~' ,publisher:'L'},
+    { quote: 'Lack is when preparation meets success', author: '~Paul~' ,publisher:'~L~'},
   ];
 
   constructor() {}
